@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.649 sec <<< FAILURE! - in testrunner.TestRunner
+Successful login with valid credentials(Home Page Login)  Time elapsed: 0.085 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'verify reading excel data' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("verify reading excel data")
+public void verify_reading_excel_data() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Successful verify with valid credentials(Home Page Login)  Time elapsed: 0.01 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'verify reading excel data' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("verify reading excel data")
+public void verify_reading_excel_data() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
