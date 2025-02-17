@@ -53,7 +53,7 @@ public class DriverSetup {
 		driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 		//wait for page load
 		driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
-		System.out.println("Browser Launch Success!");
+		System.out.println("Browser Launched!");
 		//return driver value
 		return driver;
 	}
