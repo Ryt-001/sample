@@ -36,7 +36,7 @@ public class LoginPage {
 		loginBtn.click();
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		
+		//alert box
 		
 	}
 	
