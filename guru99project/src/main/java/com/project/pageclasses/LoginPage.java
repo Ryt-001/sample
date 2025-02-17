@@ -37,7 +37,6 @@ public class LoginPage {
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
 		
-		
 	}
 	
 	public void tearDown() {
